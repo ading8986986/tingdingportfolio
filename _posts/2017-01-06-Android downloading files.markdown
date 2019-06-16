@@ -1,30 +1,32 @@
 ---
 layout: post
-title:  "Another copy of the Readme of Jekyll!"
-date:   2017-09-05 14:10:51 +0800
-categories: Jekyll
-tags: Jekyll
+title:  "Android Downloading Files"
+date:   2017-01-16 14:10:51 +0800
+categories: Android
+tags: Android
 description: This is just another copy of the read me page of Jekyll.
 ---
-# [Jekyll](https://jekyllrb.com/)
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
-[![Linux Build Status](https://img.shields.io/travis/jekyll/jekyll/master.svg?label=Linux%20build)][travis]
-[![Windows Build status](https://img.shields.io/appveyor/ci/jekyll/jekyll/master.svg?label=Windows%20build)][appveyor]
-[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/jekyll/jekyll.svg)][coverage]
-[![Code Climate](https://img.shields.io/codeclimate/github/jekyll/jekyll.svg)][codeclimate]
-[![Dependency Status](https://img.shields.io/gemnasium/jekyll/jekyll.svg)][gemnasium]
-[![Security](https://hakiri.io/github/jekyll/jekyll/master.svg)][hakiri]
+### AsyncTask
 
-[ruby-gems]: https://rubygems.org/gems/jekyll
-[gemnasium]: https://gemnasium.com/jekyll/jekyll
-[codeclimate]: https://codeclimate.com/github/jekyll/jekyll
-[coverage]: https://codeclimate.com/github/jekyll/jekyll/coverage
-[hakiri]: https://hakiri.io/github/jekyll/jekyll/master
-[travis]: https://travis-ci.org/jekyll/jekyll
-[appveyor]: https://ci.appveyor.com/project/jekyll/jekyll/branch/master
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind [GitHub Pages](https://pages.github.com), which you can use to host sites right from your GitHub repositories.
+
+Android Architecture is made up of 4 key components:
+
+* Linux Kernel
+* Libraries
+* Android Framework
+* Android Applications
+
+### Android Framework
+The Android Framework is an important aspect of the Android Architecture. Here you can find all the classes and methods that developers would need in order to write applications on the Android environment.
 
 ## Philosophy
 
